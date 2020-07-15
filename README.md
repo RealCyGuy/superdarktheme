@@ -1,19 +1,22 @@
 # superdarktheme
 
-## Project setup
+This repository holds `superdarktheme`'s website code and code code (bookmarklet).
+
+Site: <https://darktheme.netlify.app/>
+
+## Development
+
+Clone repo.
 ```
-npm install
+git clone https://github.com/RealCyGuy/superdarktheme.git
 ```
 
-### Compiles and hot-reloads for development
+Install packages.
+```
+npm install --dev
+```
+
+Run local server for development with hot reload.
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
