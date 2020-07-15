@@ -15,7 +15,7 @@ export default {
     return {
       currentTab: "selection",
       onlinelink:
-        "javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/RealCyGuy/superdarktheme@master/bookmarklet/superdarktheme.min.js';document.body.appendChild(s)})();",
+        "javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/RealCyGuy/superdarktheme/bookmarklet/superdarktheme.min.js';document.body.appendChild(s)})();",
       offlinelink: "javascript:(function(){" + offlinelink + " })();"
     };
   },
